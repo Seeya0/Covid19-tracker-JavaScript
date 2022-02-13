@@ -20,7 +20,7 @@ const CountryPicker = ({ handleCountryChange }) => {
         className="text-lg bg-gray-200 rounded-full p-2 text-center outline-none appearance-none font-semibold"
         onChange={(e) => handleCountryChange(e.target.value)}
       >
-        <option value="Japan">Japan</option>
+        <option value="">クリック or タップ！</option>
         {countries.map((country, i) => (
           <option key={i} value={country}>
             {country}
